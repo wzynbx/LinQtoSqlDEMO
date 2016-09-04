@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinQDB">
+  <DataContextMoniker Name="/LinQDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cb4aee12-6dcc-4179-b9aa-43fbe6c3328f" absoluteBounds="3.5, 0.875, 2, 1.3805261230468753">
+      <DataClassMoniker Name="/LinQDBDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f1c0561-6f1a-4a94-92e4-be6513be5660" absoluteBounds="3.515, 1.335, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="51e65d4b-3a50-4ef0-a3e8-7e59da28a90c" absoluteBounds="0.75, 1, 2, 1.1895064290364585">
+      <DataClassMoniker Name="/LinQDBDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7dd3e754-6282-4318-9d5a-dfce39f15642" absoluteBounds="0.765, 1.46, 1.9700000000000002, 0.62950642903645826" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.59475321451823); (3.5 : 1.59475321451823)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LinQDBDataContext/Role/Role_User" />
+      <nodes>
+        <classShapeMoniker Id="51e65d4b-3a50-4ef0-a3e8-7e59da28a90c" />
+        <classShapeMoniker Id="cb4aee12-6dcc-4179-b9aa-43fbe6c3328f" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
